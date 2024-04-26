@@ -1,0 +1,166 @@
+body {font-family: "Lato", sans-serif;}
+
+.sidebar {
+  height: 100%;
+  width: 170px;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: #ffffff;
+  overflow-x: hidden;
+  padding-top: 16px;
+}
+
+.sidebar a {
+  padding: 6px 8px 6px 16px;
+  text-decoration: none;
+  font-size: 21px;
+  color: #818181;
+  display: block;
+  margin-top: 30px;
+}
+
+.main {
+  margin: 180px; /* Same as the width of the sidenav */
+  background-color: #6499ff;
+  border-radius: 20px;
+  padding: 30px;
+  margin-top: 50px;
+  width: 50%;
+}
+
+img {
+    max-width: 50%;
+    height: auto;
+    margin-left: 45px;
+}
+
+a.home {
+  
+  width: 20%;
+  margin-left: 50px;
+}
+
+a.home:hover {
+  color: #ffffff;
+  width: 20%;
+  margin-left: 50px;
+}
+
+a.administrador {
+  
+  width: 20%;
+  margin-left: 50px;
+}
+
+a.administrador:hover {
+  color: #ffffff;
+  width: 20%;
+  margin-left: 50px;
+  border-radius: 20px;
+}
+
+a.colaboradores {
+  
+  width: 20%;
+  margin-left: 50px;
+}
+
+a.colaboradores:hover {
+  color: #ffffff;
+  width: 20%;
+  margin-left: 50px;
+  border-radius: 20px;
+}
+
+a.pacientes {
+  
+  width: 20%;
+  margin-left: 50px;
+}
+
+a.pacientes:hover {
+  color: #ffffff;
+  width: 20%;
+  margin-left: 50px;
+  border-radius: 20px;
+}
+
+i.fa-solid.fa-user-tie {
+  margin-left: 2px;
+}
+
+h2.logout {
+  padding-top: 20px;
+  margin-left: 50px;
+}
+
+div.logout {
+  padding-top: 50px;
+}
+
+svg.administrador {
+  width: 40%;
+  margin-left: 50px;
+  border-radius: 20px;
+}
+
+.card-container {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+}
+
+.card-pacientes {
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  margin: 10px;
+  width: calc(33.333% - 20px);
+  background-color: #ffffff;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+}
+
+.card-colaboradores {
+  background-color: #f0f0f0;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  margin: 10px;
+  width: calc(33.333% - 20px);
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+}
+
+.card-pagamentos {
+  background-color: #f0f0f0;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  margin: 10px;
+  width: calc(33.333% - 20px);
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+}
+
+.card h2 {
+  margin-top: 0;
+}
+
+svg.icon {
+  margin-left: -4px;
+}
+
+@media screen and (max-width: 922px) {
+  .card-container {
+      flex-wrap: wrap;
+  }
+
+  .card {
+      width: calc(100% - 50px);
+      margin-bottom: 50px;
+  }
+}
