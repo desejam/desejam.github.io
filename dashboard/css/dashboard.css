@@ -29,10 +29,27 @@ body {font-family: "Lato", sans-serif;}
         }
 
         .card-container {
-            flex: 1 1 calc(33.333% - 20px);
-            margin: 10px;
-            max-width: 300px;
-        }
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.card-container .card {
+  flex: 1 0 31%;
+  margin-bottom: 20px;
+}
+
+@media (max-width: 768px) {
+  .card-container .card {
+    flex: 1 0 48%;
+  }
+}
+
+@media (max-width: 480px) {
+  .card-container .card {
+    flex: 1 0 100%;
+  }
+}
 
 img {
     max-width: 50%;
