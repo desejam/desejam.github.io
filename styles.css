@@ -9,7 +9,6 @@ body {
 
 .card {
     max-width: 400px; /* Largura máxima do card */
-    background-color: rgb(116, 121, 121);
     border-radius: 20px;
     overflow: hidden; /* Impede que o conteúdo ultrapasse as bordas do card */
 }
